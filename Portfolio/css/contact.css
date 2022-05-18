@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../img/bgPortf.png");
+    background-size: cover;
+}
+
+.nav{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.nav h1{
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h3{
+    font-size: 28px;
+    color:aliceblue;
+}
+
+.content a{
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    color:aliceblue;
+    transition: 0.5s;
+}
+
+.content a:hover{
+    font-size: 28px;
+    cursor: pointer;
+    color: rgb(128, 210, 27);
+}
+
+.content p{
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    color:aliceblue;
+}
